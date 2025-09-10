@@ -2,8 +2,8 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.3.0 (2025-09-10)
+------------------
 * ament_auto_package now requires USE_SCOPED_HEADER_INSTALL_DIR
 * Contributors: Séverin Lemaignan
 
