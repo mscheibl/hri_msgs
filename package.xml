@@ -4,9 +4,9 @@
   <name>hri_msgs</name>
   <version>2.3.0</version>
   <description>Messages, services and action definitions useful for Human-Robot Interaction</description>
-  <maintainer email="severin.lemaignan@pal-robotics.com">Séverin Lemaignan</maintainer>
+  <maintainer email="severin.lemaignan@iiia.csic.es">Séverin Lemaignan</maintainer>
   <license>Apache License 2.0</license>
-  <author email="severin.lemaignan@pal-robotics.com">Séverin Lemaignan</author>
+  <author email="severin.lemaignan@iiia.csic.es">Séverin Lemaignan</author>
 
   <buildtool_depend>ament_cmake_auto</buildtool_depend>
   <buildtool_depend>rosidl_default_generators</buildtool_depend>
