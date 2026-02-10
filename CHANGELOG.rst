@@ -2,8 +2,8 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.3.1 (2026-02-10)
+------------------
 * update maintainer email
 * mark package as architecture indepednent
 * Contributors: Séverin Lemaignan
