@@ -2,8 +2,8 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.3.2 (2026-02-10)
+------------------
 * Revert "mark package as architecture indepednent"
   Contrary to what the REP149 indicates, message-only ROS2 package are
   not arch independent, as the compile DDS type introspection helpers.
