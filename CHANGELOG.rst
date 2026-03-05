@@ -2,20 +2,6 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.3.2 (2026-02-10)
-------------------
-* Revert "mark package as architecture indepednent"
-  Contrary to what the REP149 indicates, message-only ROS2 package are
-  not arch independent, as the compile DDS type introspection helpers.
-  This reverts commit 91fff726987af6dda19770119b243163caf4ffee.
-* Contributors: Séverin Lemaignan
-
-2.3.1 (2026-02-10)
-------------------
-* update maintainer email
-* mark package as architecture indepednent
-* Contributors: Séverin Lemaignan
-
 2.3.0 (2025-09-10)
 ------------------
 * ament_auto_package now requires USE_SCOPED_HEADER_INSTALL_DIR

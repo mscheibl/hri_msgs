@@ -26,13 +26,20 @@ endif()
 
 find_package(ament_cmake_auto REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
+find_package(builtin_interfaces REQUIRED)
 find_package(sensor_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/AudioFeatures.msg"
   "msg/BodyPosture.msg"
+  "msg/ECG.msg"
+  "msg/ECGChannel.msg"
+  "msg/EEG.msg"
+  "msg/EMG.msg"
   "msg/EngagementLevel.msg"
+  "msg/EOG.msg"
   "msg/Expression.msg"
+  "msg/EyeTracking.msg"
   "msg/FacialActionUnits.msg"
   "msg/FacialLandmarks.msg"
   "msg/Gaze.msg"
@@ -44,9 +51,14 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/NormalizedPointOfInterest2D.msg"
   "msg/NormalizedPointOfInterest2DStamped.msg"
   "msg/NormalizedRegionOfInterest2D.msg"
+  "msg/PPG.msg"
+  "msg/Pupillometry.msg"
+  "msg/Respiration.msg"
   "msg/Skeleton2D.msg"
+  "msg/SkinConductance.msg"
   "msg/SoftBiometrics.msg"
-  DEPENDENCIES std_msgs
+  "srv/GetSensorRanges.srv"
+  DEPENDENCIES builtin_interfaces std_msgs
 )
 
 ament_export_dependencies(rosidl_default_runtime)
